@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test - March - Demo,,,,2021-03-11 14:33:36,2021-03-11 14:33:43,6.615s,FAILED
+,,,,,,,
+Test Cases/TC1 - Login - Record n Play back,,,,2021-03-11 14:33:38,2021-03-11 14:33:43,5.402s,FAILED
+"openBrowser("""")",,,,2021-03-11 14:33:38,2021-03-11 14:33:43,4.910s,FAILED

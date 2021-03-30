@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1 - Login Fail - Wait for element visible</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d95dca21-2662-43c0-9fea-6cd696dcbbda</testCaseGuid>
+</TestCaseEntity>

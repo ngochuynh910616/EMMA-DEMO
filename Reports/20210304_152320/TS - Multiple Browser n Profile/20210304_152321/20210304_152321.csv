@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Multiple Browser n Profile,Firefox 84.0,,,2021-03-04 15:23:35,2021-03-04 15:24:30,54.551s,PASSED
+,,,,,,,
+Test Cases/TC1 - Login - Record n Play back,Firefox 84.0,,,2021-03-04 15:23:37,2021-03-04 15:24:01,23.943s,PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-03-04 15:23:38,2021-03-04 15:23:50,11.804s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 84.0,,,2021-03-04 15:23:50,2021-03-04 15:23:55,4.708s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 84.0,,,2021-03-04 15:23:55,2021-03-04 15:23:56,1.371s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Firefox 84.0,,,2021-03-04 15:23:56,2021-03-04 15:23:57,1.070s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 84.0,,,2021-03-04 15:23:57,2021-03-04 15:23:58,1.131s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Firefox 84.0,,,2021-03-04 15:23:58,2021-03-04 15:24:01,2.529s,PASSED
+,,,,,,,
+Test Cases/TC2 - Login - Continue Record,Firefox 84.0,,,2021-03-04 15:24:01,2021-03-04 15:24:18,17.327s,PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-03-04 15:24:02,2021-03-04 15:24:11,8.572s,PASSED
+navigateToUrl(URL),Firefox 84.0,,,2021-03-04 15:24:11,2021-03-04 15:24:15,3.975s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 84.0,,,2021-03-04 15:24:15,2021-03-04 15:24:16,0.859s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Firefox 84.0,,,2021-03-04 15:24:16,2021-03-04 15:24:16,0.680s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 84.0,,,2021-03-04 15:24:16,2021-03-04 15:24:17,0.428s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Firefox 84.0,,,2021-03-04 15:24:17,2021-03-04 15:24:18,1.327s,PASSED
+,,,,,,,
+Test Cases/TC2 - Login - Data Driven,Firefox 84.0,,,2021-03-04 15:24:18,2021-03-04 15:24:30,11.568s,PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-03-04 15:24:19,2021-03-04 15:24:23,4.849s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 84.0,,,2021-03-04 15:24:23,2021-03-04 15:24:26,2.809s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 84.0,,,2021-03-04 15:24:26,2021-03-04 15:24:27,0.753s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ID)",Firefox 84.0,,,2021-03-04 15:24:27,2021-03-04 15:24:28,0.680s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), Password)",Firefox 84.0,,,2021-03-04 15:24:28,2021-03-04 15:24:28,0.629s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Firefox 84.0,,,2021-03-04 15:24:28,2021-03-04 15:24:30,1.216s,PASSED

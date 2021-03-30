@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Data Driven" time="12.653" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="TS - Data Driven" tests="1" failures="0" errors="0" time="12.653" skips="0" timestamp="2021-03-15 15:30:56" hostname="ngochuynh - 10.62.49.167" id="Test Suites/TS - Data Driven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ngochuynh/Desktop/1. Procurement Process/1. Emma - Demo/WEB UI DEMO/Reports/20210315_153047/TS - Data Driven/20210315_153047"/>
+         <property name="logFiles" value="/Users/ngochuynh/Desktop/1. Procurement Process/1. Emma - Demo/WEB UI DEMO/Reports/20210315_153047/TS - Data Driven/20210315_153047/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ngochuynh - 10.62.49.167"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 74.0.3729.108"/>
+         <property name="hostAddress" value="10.62.49.167"/>
+         <property name="sessionId" value="487b5e94eea9c3f0119ae5c62d4f8c1b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC2 - Login - Data Driven" time="11.316" classname="Test Cases/TC2 - Login - Data Driven" status="PASSED">
+         <system-out><![CDATA[2021-03-15 15:30:57 - [TEST_CASE][PASSED] - Test Cases/TC2 - Login - Data Driven: Test Cases/TC2 - Login - Data Driven
+
+2021-03-15 15:30:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-15 15:30:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-15 15:30:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-15 15:31:00 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2021-03-15 15:31:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-15 15:31:00 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-03-15 15:31:04 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-03-15 15:31:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2021-03-15 15:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2021-03-15 15:31:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), ID): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2021-03-15 15:31:06 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2021-03-15 15:31:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2021-03-15 15:31:07 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2021-03-15 15:31:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2021-03-15 15:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-15 15:30:56 - [TEST_SUITE][PASSED] - TS - Data Driven: Test Cases/TC2 - Login - Data Driven]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

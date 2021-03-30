@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Multiple Browser n Profile - Copy,Chrome 74.0.3729.108,,,2021-03-03 17:05:00,2021-03-03 17:05:28,27.551s,PASSED
+,,,,,,,
+Test Cases/TC2 - Login - Continue Record,Chrome 74.0.3729.108,,,2021-03-03 17:05:04,2021-03-03 17:05:28,23.994s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,,2021-03-03 17:05:06,2021-03-03 17:05:18,11.920s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.108,,,2021-03-03 17:05:18,2021-03-03 17:05:23,4.825s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 74.0.3729.108,,,2021-03-03 17:05:23,2021-03-03 17:05:24,1.254s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 74.0.3729.108,,,2021-03-03 17:05:24,2021-03-03 17:05:25,1.072s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 74.0.3729.108,,,2021-03-03 17:05:25,2021-03-03 17:05:26,1.086s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 74.0.3729.108,,,2021-03-03 17:05:26,2021-03-03 17:05:28,1.409s,PASSED

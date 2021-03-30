@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Multiple Browser n Profile" time="50.834" tests="2" failures="0" skips="0" errors="0">
+   <testsuite name="TS - Multiple Browser n Profile" tests="2" failures="0" errors="0" time="50.834" skips="0" timestamp="2021-03-03 17:04:51" hostname="ngochuynh - 192.168.37.115" id="Test Suites/TS - Multiple Browser n Profile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ngochuynh/Desktop/1. Procurement Process/1. Emma - Demo/EMMA-DEMO/Reports/20210303_170433/TS - Multiple Browser n Profile/20210303_170435"/>
+         <property name="logFiles" value="/Users/ngochuynh/Desktop/1. Procurement Process/1. Emma - Demo/EMMA-DEMO/Reports/20210303_170433/TS - Multiple Browser n Profile/20210303_170435/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ngochuynh - 192.168.37.115"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Firefox 84.0"/>
+         <property name="hostAddress" value="192.168.37.115"/>
+         <property name="sessionId" value="80a3d82a-2b65-9a4b-a507-f04d2f74f8c9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC1 - Login - Record n Play back" time="27.366" classname="Test Cases/TC1 - Login - Record n Play back" status="PASSED">
+         <system-out><![CDATA[2021-03-03 17:04:54 - [TEST_CASE][PASSED] - Test Cases/TC1 - Login - Record n Play back: Test Cases/TC1 - Login - Record n Play back
+
+2021-03-03 17:04:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-03 17:04:57 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-03-03 17:04:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-03 17:05:09 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2021-03-03 17:05:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-03 17:05:09 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-03-03 17:05:16 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-03-03 17:05:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2021-03-03 17:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2021-03-03 17:05:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2021-03-03 17:05:19 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2021-03-03 17:05:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2021-03-03 17:05:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2021-03-03 17:05:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2021-03-03 17:05:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2 - Login - Continue Record" time="18.529" classname="Test Cases/TC2 - Login - Continue Record" status="PASSED">
+         <system-out><![CDATA[2021-03-03 17:05:21 - [TEST_CASE][PASSED] - Test Cases/TC2 - Login - Continue Record: Test Cases/TC2 - Login - Continue Record
+
+2021-03-03 17:05:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-03 17:05:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-03 17:05:24 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-03-03 17:05:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-03 17:05:31 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2021-03-03 17:05:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-03 17:05:31 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-03-03 17:05:36 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2021-03-03 17:05:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2021-03-03 17:05:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2021-03-03 17:05:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2021-03-03 17:05:38 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2021-03-03 17:05:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2021-03-03 17:05:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2021-03-03 17:05:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2021-03-03 17:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-03 17:04:51 - [TEST_SUITE][PASSED] - TS - Multiple Browser n Profile: Test Cases/TC2 - Login - Continue Record]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl(URL)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"))
+
+4
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+

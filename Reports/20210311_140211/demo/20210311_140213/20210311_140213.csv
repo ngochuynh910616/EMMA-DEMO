@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+demo,,,,2021-03-11 14:02:21,2021-03-11 14:02:29,7.464s,FAILED
+,,,,,,,
+Test Cases/TC2 - Login - Data Driven,,,,2021-03-11 14:02:22,2021-03-11 14:02:27,4.203s,FAILED
+"openBrowser("""")",,,,2021-03-11 14:02:23,2021-03-11 14:02:27,3.651s,FAILED
+,,,,,,,
+Test Cases/TC2 - Login - Different profile,,,,2021-03-11 14:02:27,2021-03-11 14:02:29,2.082s,FAILED
+"openBrowser("""")",,,,2021-03-11 14:02:27,2021-03-11 14:02:29,1.746s,FAILED

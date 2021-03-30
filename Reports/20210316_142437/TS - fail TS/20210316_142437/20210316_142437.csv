@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - fail TS,,,,2021-03-16 14:24:45,2021-03-16 14:24:54,8.678s,FAILED
+,,,,,,,
+Test Cases/TC2 - Login - Continue Record,,,,2021-03-16 14:24:46,2021-03-16 14:24:49,3.278s,FAILED
+"openBrowser("""")",,,,2021-03-16 14:24:46,2021-03-16 14:24:49,2.717s,FAILED
+,,,,,,,
+Test Cases/TC1 - Login Fail TC,,,,2021-03-16 14:24:49,2021-03-16 14:24:52,2.772s,FAILED
+"openBrowser("""")",,,,2021-03-16 14:24:50,2021-03-16 14:24:52,2.303s,FAILED
+,,,,,,,
+Test Cases/TC1 - Login - Record n Play back,,,,2021-03-16 14:24:52,2021-03-16 14:24:54,1.909s,FAILED
+"openBrowser("""")",,,,2021-03-16 14:24:52,2021-03-16 14:24:54,1.651s,FAILED

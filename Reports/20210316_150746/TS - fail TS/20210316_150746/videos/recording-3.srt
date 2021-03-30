@@ -1,0 +1,80 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+
+3
+00:00:00,000 --> 00:00:00,000
+9. doubleClick(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"))
+
+4
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "Wrong password")
+
+5
+00:00:00,000 --> 00:00:00,000
+17. setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "9NLz+4tGZcQ=")
+
+6
+00:00:00,000 --> 00:00:00,000
+21. setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "Wrong ID")
+
+7
+00:00:00,000 --> 00:00:00,000
+25. setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "S0mp/5VcLuM=")
+
+8
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
+
+9
+00:00:00,000 --> 00:00:00,000
+33. setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe")
+
+10
+00:00:00,000 --> 00:00:00,000
+37. setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+
+11
+00:00:00,000 --> 00:00:00,000
+41. click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
+
+12
+00:00:00,000 --> 00:00:00,000
+45. selectOptionByValue(findTestObject("Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true)
+
+13
+00:00:00,000 --> 00:00:00,000
+49. click(findTestObject("Object Repository/Page_CURA Healthcare Service/label_Medicaid"))
+
+14
+00:00:00,000 --> 00:00:00,000
+53. click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"))
+
+15
+00:00:00,000 --> 00:00:00,000
+57. click(findTestObject("Object Repository/Page_CURA Healthcare Service/td_16"))
+
+16
+00:00:00,000 --> 00:00:00,000
+61. setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), "test")
+
+17
+00:00:00,000 --> 00:00:00,000
+65. click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment"))
+
+18
+00:00:00,000 --> 00:00:00,000
+69. verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation"), "Appointment Confirmation")
+
+19
+00:00:00,000 --> 00:00:00,000
+73. click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Go to Homepage"))
+
+20
+00:00:00,000 --> 00:00:00,000
+77. closeBrowser()
+

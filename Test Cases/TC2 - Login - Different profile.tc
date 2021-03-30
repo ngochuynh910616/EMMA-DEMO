@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2 - Login - Different profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9efcd0a3-38fb-4233-b1b3-e8e84af8f233</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33ac72c1-f17e-4cbb-97df-cb93590e34d6</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

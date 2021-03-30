@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2 - Login - Data Driven</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>26bb409d-2e10-452d-90bb-f9cf4551184c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3f3a017d-d5de-4774-b2d6-118bb247cd63</id>
+      <masked>false</masked>
+      <name>ID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8141ab70-2b35-496c-9b70-7dddbe66b11b</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

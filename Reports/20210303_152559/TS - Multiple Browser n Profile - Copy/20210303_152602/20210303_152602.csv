@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Multiple Browser n Profile - Copy,Chrome 74.0.3729.108,,,2021-03-03 15:26:10,2021-03-03 15:26:22,12.045s,ERROR
+,,,,,,,
+Test Cases/TC2 - Login - Continue Record,Chrome 74.0.3729.108,,,2021-03-03 15:26:12,2021-03-03 15:26:22,10.307s,ERROR
+"openBrowser("""")",Chrome 74.0.3729.108,,,2021-03-03 15:26:13,2021-03-03 15:26:22,9.192s,PASSED
+navigateToUrl(null),Chrome 74.0.3729.108,,,2021-03-03 15:26:22,2021-03-03 15:26:22,0.006s,PASSED

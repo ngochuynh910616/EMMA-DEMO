@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Multiple Browser n Profile - Copy,,,,2021-03-04 23:59:28,2021-03-04 23:59:47,19.220s,FAILED
+,,,,,,,
+Test Cases/TC2 - Login - Continue Record,,,,2021-03-04 23:59:31,2021-03-04 23:59:47,16.316s,FAILED
+"openBrowser("""")",,,,2021-03-04 23:59:32,2021-03-04 23:59:47,15.335s,FAILED

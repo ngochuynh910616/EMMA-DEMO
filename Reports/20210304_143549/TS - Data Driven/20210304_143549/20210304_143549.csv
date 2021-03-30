@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Data Driven,Chrome 74.0.3729.108,,,2021-03-04 14:35:58,2021-03-04 14:36:03,4.992s,FAILED
+,,,,,,,
+Test Cases/TC2 - Login - Data Driven,Chrome 74.0.3729.108,,,2021-03-04 14:35:58,2021-03-04 14:36:03,4.251s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.108,,,2021-03-04 14:35:59,2021-03-04 14:36:02,3.084s,PASSED
+navigateToUrl(URL),Chrome 74.0.3729.108,,,2021-03-04 14:36:02,2021-03-04 14:36:03,0.658s,FAILED

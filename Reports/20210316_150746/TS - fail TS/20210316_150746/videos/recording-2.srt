@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+
+3
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"))
+
+4
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe")
+
+5
+00:00:00,000 --> 00:00:00,000
+17. setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "+wDuQPYY451ApK/Bw9SXomwWS5hjrGj8")
+
+6
+00:00:00,000 --> 00:00:00,000
+21. click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
+
+7
+00:00:00,000 --> 00:00:00,000
+25. verifyElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5"), 0)
+
+8
+00:00:00,000 --> 00:00:00,000
+29. setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "WRONG ID LOGIN")
+
+9
+00:00:00,000 --> 00:00:00,000
+33. setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+
+10
+00:00:00,000 --> 00:00:00,000
+37. click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
+
+11
+00:00:00,000 --> 00:00:00,000
+41. selectOptionByValue(findTestObject("Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true)
+

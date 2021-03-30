@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test - March - Demo,Chrome 74.0.3729.108,,,2021-03-11 14:31:20,2021-03-11 14:31:26,5.739s,FAILED
+,,,,,,,
+Test Cases/TC1 - Login - Record n Play back,Chrome 74.0.3729.108,,,2021-03-11 14:31:21,2021-03-11 14:31:26,4.526s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.108,,,2021-03-11 14:31:22,2021-03-11 14:31:25,3.071s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 74.0.3729.108,,,2021-03-11 14:31:25,2021-03-11 14:31:26,0.631s,FAILED

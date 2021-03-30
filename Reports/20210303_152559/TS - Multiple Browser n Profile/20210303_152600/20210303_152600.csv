@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Multiple Browser n Profile,Firefox 84.0,,,2021-03-03 15:26:10,2021-03-03 15:26:41,31.028s,ERROR
+,,,,,,,
+Test Cases/TC1 - Login - Record n Play back,Firefox 84.0,,,2021-03-03 15:26:11,2021-03-03 15:26:36,24.199s,PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-03-03 15:26:13,2021-03-03 15:26:26,13.560s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 84.0,,,2021-03-03 15:26:26,2021-03-03 15:26:32,5.832s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 84.0,,,2021-03-03 15:26:32,2021-03-03 15:26:33,0.991s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Firefox 84.0,,,2021-03-03 15:26:33,2021-03-03 15:26:34,0.717s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 84.0,,,2021-03-03 15:26:34,2021-03-03 15:26:34,0.448s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Firefox 84.0,,,2021-03-03 15:26:34,2021-03-03 15:26:36,1.619s,PASSED
+,,,,,,,
+Test Cases/TC2 - Login - Continue Record,Firefox 84.0,,,2021-03-03 15:26:36,2021-03-03 15:26:41,5.081s,ERROR
+"openBrowser("""")",Firefox 84.0,,,2021-03-03 15:26:36,2021-03-03 15:26:41,4.560s,PASSED
+navigateToUrl(null),Firefox 84.0,,,2021-03-03 15:26:41,2021-03-03 15:26:41,0.004s,PASSED

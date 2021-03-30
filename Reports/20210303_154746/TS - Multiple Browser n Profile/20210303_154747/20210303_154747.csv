@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Multiple Browser n Profile,Firefox 84.0,,,2021-03-03 15:47:59,2021-03-03 15:48:29,29.975s,PASSED
+,,,,,,,
+Test Cases/TC1 - Login - Record n Play back,Firefox 84.0,,,2021-03-03 15:48:00,2021-03-03 15:48:14,14.509s,PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-03-03 15:48:00,2021-03-03 15:48:06,5.930s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 84.0,,,2021-03-03 15:48:06,2021-03-03 15:48:10,3.791s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 84.0,,,2021-03-03 15:48:10,2021-03-03 15:48:11,0.928s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Firefox 84.0,,,2021-03-03 15:48:11,2021-03-03 15:48:12,0.733s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 84.0,,,2021-03-03 15:48:12,2021-03-03 15:48:12,0.698s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Firefox 84.0,,,2021-03-03 15:48:12,2021-03-03 15:48:14,1.944s,PASSED
+,,,,,,,
+Test Cases/TC2 - Login - Continue Record,Firefox 84.0,,,2021-03-03 15:48:14,2021-03-03 15:48:29,14.524s,PASSED
+"openBrowser("""")",Firefox 84.0,,,2021-03-03 15:48:16,2021-03-03 15:48:23,6.292s,PASSED
+navigateToUrl(URL),Firefox 84.0,,,2021-03-03 15:48:23,2021-03-03 15:48:26,3.325s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 84.0,,,2021-03-03 15:48:26,2021-03-03 15:48:27,0.877s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Firefox 84.0,,,2021-03-03 15:48:27,2021-03-03 15:48:28,0.633s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 84.0,,,2021-03-03 15:48:28,2021-03-03 15:48:28,0.317s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Firefox 84.0,,,2021-03-03 15:48:28,2021-03-03 15:48:29,1.098s,PASSED

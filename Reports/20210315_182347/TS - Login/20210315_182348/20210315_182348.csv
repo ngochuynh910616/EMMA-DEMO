@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Login,,,,2021-03-15 18:23:58,2021-03-15 18:24:06,7.726s,FAILED
+,,,,,,,
+Test Cases/TC2 - Login - Continue Record,,,,2021-03-15 18:24:01,2021-03-15 18:24:06,5.163s,FAILED
+"openBrowser("""")",,,,2021-03-15 18:24:01,2021-03-15 18:24:06,4.731s,FAILED
